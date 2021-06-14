@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <title>Catalogue</title>
+  </head>
+  <body>
+    <div class="outer-container">
+      <div class="inner-container">
+        <nav>
+          <div class="nav-one">
+            <ul>
+              <li><a href="#">SOFAS</a></li>
+              <li><a href="#">CHAIRS</a></li>
+              <li><a href="#">LIGHTS</a></li>
+            </ul>
+          </div>
+          <div class="nav-two">
+            <h1>POOCS <span class="dot">.</span></h1>
+          </div>
+          <div class="nav-three">
+            <div class="form">
+              <input type="text" name="name" autocomplete="off" required />
+              <label for="name" class="label-name">
+                <span class="content-name"> SEARCH ITEM </span>
+              </label>
+            </div>
+            <ul>
+              <li>
+                <a href="#"><i class="fas fa-heart"></i> </a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-user"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="catalogue-container">
+          <div class="cat-result">
+            <p><span id="result">100</span> PRODUCTS FOUND</p>
+            <p>SORT BY <span id="default">DEFAULT</span></p>
+          </div>
+          <div class="cat-heading"><h3>CATEGORIES</h3></div>
+          <div class="categories">
+            <ul class="category-ul">
+              <li class="category-li category-active">
+                <p>ALL SOFAS</p>
+                <p>100</p>
+              </li>
+              <li class="category-li">
+                <p>LATEST ARRIVALS</p>
+                <p>40</p>
+              </li>
+              <li class="category-li">
+                <p>SECTIONAL</p>
+                <p>140</p>
+              </li>
+              <li class="category-li">
+                <p>SOFA BED</p>
+                <p>190</p>
+              </li>
+              <li class="category-li">
+                <p>TUXEDO</p>
+                <p>10</p>
+              </li>
+            </ul>
+            <div class="line"></div>
+          </div>
+          <div class="filter">
+            <h3>FILTER BY</h3>
+            <h5>PRICE</h5>
+            <div class="multihandslide">
+              <div class="middle">
+                <div class="multi-range-slider">
+                  <input
+                    type="range"
+                    id="input-left"
+                    min="0"
+                    max="100"
+                    value="25"
+                  />
+                  <input
+                    type="range"
+                    id="input-right"
+                    min="0"
+                    max="100"
+                    value="75"
+                  />
+
+                  <div class="slider">
+                    <div class="track"></div>
+                    <div class="range"></div>
+                    <div class="thumb left"></div>
+                    <div class="thumb right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="range">RANGE 500$-1200$</p>
+            <h5>COLOR</h5>
+            <div class="color-palette">
+              <div class="color" id="color1"></div>
+              <div class="color" id="color2"></div>
+              <div class="color" id="color3"></div>
+              <div class="color" id="color4"></div>
+              <div class="color" id="color5"></div>
+              <div class="color" id="color6"></div>
+            </div>
+            <div class="color-palette">
+              <div class="color" id="color3"></div>
+
+              <div class="color" id="color6"></div>
+            </div>
+          </div>
+          <div class="catalogue-card-container">
+            <div class="catalogue-card" id="card1">
+              <img src="/4 images/pexels-sound-on-3394665.jpg" alt="" />
+              <div class="desc">
+                <h5>PLATE</h5>
+                <h6>10$</h6>
+              </div>
+              <button>SHOP NOW</button>
+            </div>
+            <div class="catalogue-card" id="card2">
+              <img src="/4 images/pexels-sound-on-3394648.jpg" alt="" />
+              <div class="desc">
+                <h5>PLATE</h5>
+                <h6>10$</h6>
+              </div>
+              <button>SHOP NOW</button>
+            </div>
+            <div class="catalogue-card" id="card3">
+              <img src="/4 images/pexels-sound-on-3394665.jpg" alt="" />
+              <div class="desc">
+                <h5>PLATE</h5>
+                <h6>10$</h6>
+              </div>
+              <button>SHOP NOW</button>
+            </div>
+            <div class="catalogue-card" id="card4">
+              <img src="/4 images/pexels-sound-on-3394665.jpg" alt="" />
+              <div class="desc">
+                <h5>PLATE</h5>
+                <h6>10$</h6>
+              </div>
+              <button>SHOP NOW</button>
+            </div>
+          </div>
+          <div class="page-scroll">
+            <i id="left-arrow" class="fas fa-chevron-left"></i>
+
+            <ul>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">6</a></li>
+              <li><a href="#">7</a></li>
+              <li><a href="#">8</a></li>
+              <li><a href="#">9</a></li>
+            </ul>
+
+            <i id="right-arrow" class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="foot-line">
+          <h5>SOFAS</h5>
+          <ul>
+            <li><a href="#">TUXEDO</a></li>
+            <li><a href="#">SECTIONAL</a></li>
+            <li><a href="#">SOFA BED</a></li>
+            <li><a href="#">TUFON</a></li>
+          </ul>
+        </div>
+        <div class="foot-line">
+          <h5>CHAIR</h5>
+          <ul>
+            <li><a href="#">ARMCHAIR</a></li>
+            <li><a href="#">DINNING</a></li>
+            <li><a href="#">LOUNGE</a></li>
+            <li><a href="#">BAR</a></li>
+          </ul>
+        </div>
+        <div class="foot-line">
+          <h5>LIGHTS</h5>
+          <ul>
+            <li><a href="#">CHANDELIER</a></li>
+            <li><a href="#">STANDING</a></li>
+            <li><a href="#">MULTIPLE PIECE </a></li>
+            <li><a href="#">SOFAS</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="social-icons">
+        <a href="#"> <i class="fab fa-twitter"></i></a>
+        <a href="#"> <i class="fab fa-facebook-f"></i></a>
+        <a href="#"> <i class="fab fa-instagram"></i></a>
+      </div>
+    </footer>
+    <script src="/app.js"></script>
+  </body>
+</html>
